@@ -14,7 +14,7 @@ A simple Python command-line application for testing basic arithmetic operations
 
 ## Description
 
-`cmd_test` is a lightweight Python script that defines functions for basic arithmetic operations (addition, subtraction, multiplication, division) and includes unit tests to verify their correctness. This project serves as a minimal example of structuring a Python command-line application with integrated testing.
+`cmd_test` is a lightweight Python script that defines functions for running sequential tests of command line tools.
 
 ## Installation
 
