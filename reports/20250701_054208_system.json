@@ -1,0 +1,29 @@
+[
+  {
+    "name": "sample/echo_test",
+    "executor": "bash",
+    "command": "./scripts/echo.sh",
+    "status": "PASS",
+    "output": "Hello from Bash in sample!\n",
+    "duration_sec": 0.011039,
+    "output_file": "output/20250701_054208_system/sample/echo_test.log"
+  },
+  {
+    "name": "acme/echo_test",
+    "executor": "bash",
+    "command": "scripts/echo.sh",
+    "status": "PASS",
+    "output": "Hello from Bash in acme!\n",
+    "duration_sec": 0.00938,
+    "output_file": "output/20250701_054208_system/acme/echo_test.log"
+  },
+  {
+    "name": "acme/step-01",
+    "executor": "nzsql_file",
+    "command": "",
+    "status": "PASS",
+    "output": "MESSAGE         \n------------------------\n Hello from Netezza SQL\n(1 row)",
+    "duration_sec": 1.485047,
+    "output_file": "output/20250701_054208_system/acme/step-01.log"
+  }
+]

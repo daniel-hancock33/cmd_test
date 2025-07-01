@@ -1,0 +1,2 @@
+nzsql:tests/acme/sql/query.sql:1: ERROR:  'ELECT 'Hello from Netezza SQL' AS message;'
+error                                      ^ found "ELECT" (at char 1) expecting a keyword

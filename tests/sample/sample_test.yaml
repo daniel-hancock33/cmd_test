@@ -1,0 +1,6 @@
+tests:
+  - name: echo_test
+    description: Simple echo test
+    executor: bash
+    command: ./scripts/echo.sh
+    tags: [sample]

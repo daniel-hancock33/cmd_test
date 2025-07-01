@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Report - system</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 1em;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.6em;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        .PASS { background-color: #d4edda; }
+        .FAIL { background-color: #f8d7da; }
+        .ERROR { background-color: #fff3cd; }
+        .SKIPPED { background-color: #e2e3e5; }
+        .DRY_RUN { background-color: #d1ecf1; }
+    </style>
+</head>
+<body>
+    <h1>Test Report</h1>
+    <p><strong>Label:</strong> system</p>
+    <p><strong>Run Timestamp:</strong> 20250701_054212</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Test Name</th>
+                <th>Status</th>
+                <th>Duration (s)</th>
+                <th>Description</th>
+                <th>Output File</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr class="PASS">
+                <td>1</td>
+                <td>sample/echo_test</td>
+                <td>PASS</td>
+                <td>0.014</td>
+                <td></td>
+                <td><a href="../output/20250701_054212_system/sample/echo_test.log">output/20250701_054212_system/sample/echo_test.log</a></td>
+            </tr>
+            
+            <tr class="PASS">
+                <td>2</td>
+                <td>acme/echo_test</td>
+                <td>PASS</td>
+                <td>0.011</td>
+                <td></td>
+                <td><a href="../output/20250701_054212_system/acme/echo_test.log">output/20250701_054212_system/acme/echo_test.log</a></td>
+            </tr>
+            
+            <tr class="PASS">
+                <td>3</td>
+                <td>acme/step-01</td>
+                <td>PASS</td>
+                <td>1.355</td>
+                <td></td>
+                <td><a href="../output/20250701_054212_system/acme/step-01.log">output/20250701_054212_system/acme/step-01.log</a></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

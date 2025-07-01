@@ -1,0 +1,29 @@
+[
+  {
+    "name": "sample/echo_test",
+    "executor": "bash",
+    "command": "./scripts/echo.sh",
+    "status": "PASS",
+    "output": "Hello from Bash in sample!\n",
+    "duration_sec": 0.012006,
+    "output_file": "output/20250701_054252_system/sample/echo_test.log"
+  },
+  {
+    "name": "acme/echo_test",
+    "executor": "bash",
+    "command": "scripts/echo.sh",
+    "status": "PASS",
+    "output": "Hello from Bash in acme!\n",
+    "duration_sec": 0.010921,
+    "output_file": "output/20250701_054252_system/acme/echo_test.log"
+  },
+  {
+    "name": "acme/step-01",
+    "executor": "nzsql_file",
+    "command": "",
+    "status": "FAIL",
+    "output": "nzsql:tests/acme/sql/query.sql:1: ERROR:  'ELECT 'Hello from Netezza SQL' AS message;'\nerror                                      ^ found \"ELECT\" (at char 1) expecting a keyword",
+    "duration_sec": 1.639557,
+    "output_file": "output/20250701_054252_system/acme/step-01.log"
+  }
+]

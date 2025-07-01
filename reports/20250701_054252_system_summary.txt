@@ -1,0 +1,7 @@
+Test Summary
+PASS    : 2
+FAIL    : 1
+ERROR   : 0
+DRY_RUN : 0
+SKIPPED : 0
+TOTAL   : 3

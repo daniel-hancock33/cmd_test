@@ -1,0 +1,12 @@
+tests:
+  - name: echo_test
+    executor: bash
+    command: scripts/echo.sh
+    tags: [sample]
+
+  - name: step-01
+    executor: nzsql_file
+    database: SYSTEM
+    sql_file: sql/query.sql
+    tags: [setup]
+
