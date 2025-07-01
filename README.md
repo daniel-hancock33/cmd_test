@@ -25,7 +25,7 @@ To set up the project locally, follow these steps:
    git clone https://github.com/daniel-hancock33/cmd_test.git
 
 
-# Key Components Present
+## Key Components Present
 ```
 Module		Purpose
 core/		Orchestrates test loading, execution, and reporting
@@ -40,7 +40,7 @@ main.py	CLI 	entry point (should be nz_test/main.py if setup.py uses package)
 setup.py	Defines installable CLI (nztest) and dependencies
 ```
 
-## [Usage](#usage)
+## Usage
 
 ### Run only sample and acme, with emojis
 `python3 main.py --include-tests sample acme --emoji`
