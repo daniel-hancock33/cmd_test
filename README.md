@@ -1,3 +1,4 @@
+```
 Key Components Present
 Module		Purpose
 core/		Orchestrates test loading, execution, and reporting
@@ -10,7 +11,7 @@ output/		Stores individual test logs
 logs/		(Optional) Central location for execution logs (if used by your system)
 main.py	CLI 	entry point (should be nz_test/main.py if setup.py uses package)
 setup.py	Defines installable CLI (nztest) and dependencies
-
+```
 
 # Run only sample and acme, with emojis
 python3 main.py --include-tests sample acme --emoji
