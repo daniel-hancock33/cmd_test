@@ -20,3 +20,30 @@ python3 main.py --exclude-tests acme
 
 # Run everything, with emoji output
 python3 main.py --emoji
+
+
+# cmd_test
+
+A simple Python command-line application for testing basic arithmetic operations with unit tests.
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [How to Add This README to the Repository](#how-to-add-this-readme-to-the-repository)
+
+## Description
+
+`cmd_test` is a lightweight Python script that defines functions for basic arithmetic operations (addition, subtraction, multiplication, division) and includes unit tests to verify their correctness. This project serves as a minimal example of structuring a Python command-line application with integrated testing.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/daniel-hancock33/cmd_test.git
