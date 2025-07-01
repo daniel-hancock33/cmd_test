@@ -40,11 +40,13 @@ main.py	CLI 	entry point (should be nz_test/main.py if setup.py uses package)
 setup.py	Defines installable CLI (nztest) and dependencies
 ```
 
-# Run only sample and acme, with emojis
+## [Usage](#usage)
+
+### Run only sample and acme, with emojis
 `python3 main.py --include-tests sample acme --emoji`
 
-# Run all except acme, no emoji output (default)
+### Run all except acme, no emoji output (default)
 `python3 main.py --exclude-tests acme`
 
-# Run everything, with emoji output
+### Run everything, with emoji output
 `python3 main.py --emoji`
